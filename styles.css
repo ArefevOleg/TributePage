@@ -1,6 +1,65 @@
+body {
+    background-color: #fff;
+}
+
+.main {
+    border-radius: 10px;
+    margin: 30px 5px;
+    background-color: #eee;
+}
+
+.wrapperHead {
+    padding-top: 30px;
+}
+
+.img-div {
+    background-color: #fff;
+    margin: 0 20px;
+}
+.img-caption {
+    text-align: center;
+    font-size: 18px;
+    padding: 20px 0;
+}
+
+.mainTitle {
+    text-align: center;
+    font-size: 40px;
+}
+
+.description {
+    text-align: center;
+    font-size: 18px;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.subTitle {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.listItem {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
 #image {
     display: block;
     margin: 0 auto;
     max-width: 100%;
     height: auto;
+}
+
+.tribute-info {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.blockquote {
+    font-style: italic;
 }
